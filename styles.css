@@ -404,7 +404,7 @@ input {
 
 */
 /* ----- */
-input {
+input:hover {
     outline: 4px solid var(--orange);
     outline-offset: 2px;
     border: none;
@@ -421,8 +421,6 @@ input:focus {
 
 /* ----- */
 /* 
-    TO DO:
-    select the labels in the form using the tag name/element selector
 */
 /* ----- */
 label {
@@ -710,7 +708,7 @@ form span{
 
 */
 /* ----- */
-#table thead { 
+#table th { 
     background-color: var(--blue);
     color: var(--white);
 }
